@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple HTML Page</title>
+</head>
+<body>
+    <h1>Kousik Kuchipudi</h1>
+    <h3>New York City</h3>
+    <p>New York City is my favorite for its unmatched energy, <b>cultural diversity</b>, and endless things to explore.<br> From iconic landmarks to vibrant neighborhoods, it’s a place full of <b>inspiration</b> and <b>excitement</b> at every turn.</p>
+    <hr>
+    <h3>In New York City, I’d take a visitor to (Ordered List):</h3>
+    <ol>
+        <li>Central Park</li>
+        <li>Empire State Building</li>
+        <li>Time's Square</li>
+    </ol>
+    <h3>Places near NYC that are outside the city, I'd like to visit: (unordered list):</h3>
+    <ul>
+        <li>Bear Mountain State Park
+            <ul>
+                <li>Scenic hiking trails with stunning views of the Hudson River and surrounding mountains.</li>
+                <li>Perfect for picnicking, boating, and seasonal outdoor activities like ice skating.</li>
+            </ul>
+        </li>
+            
+        <li>Storm King Art Center</li>
+        <li>Coney Island</li>
+    </ul>
+    <a href="MyDish.html">MyDish</a>
+    <hr>
+    <h3>Restaurant recommendations</h3>
+    <p>Below is a list of some of my favorite restaurants and food vendors.<br> I highly recommend trying these places for their unique offerings, great food, and delightful atmosphere. <br>Each one offers a special experience worth checking out!</p>
+    <table>
+        <tr>
+          <th>Restaurant Name</th>
+          <th>Reason for Recommendation</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>The Spicy Grill</td>
+          <td>Amazing range of spicy dishes for adventurous eaters</td>
+          <td>Downtown</td>
+        </tr>
+        <tr>
+          <td>de Cafe</td>
+          <td>Small cafe with less crowd</td>
+          <td>Eastside</td>
+        </tr>
+        <tr>
+          <td>Mc'D</td>
+          <td>Best burgers in town</td>
+          <td>Main Street</td>
+        </tr>
+        <tr>
+          <td>Maryville Bakery</td>
+          <td>Fantastic selection of pastries and desserts</td>
+          <td>North 420st</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Code Snippet</h3>
+    <p>This Python code snippet example creates a stream.</p>
+    <pre>def processor(reader, converter, writer):
+        while True:
+            data = reader.read()
+            if not data:
+                break
+            data = converter(data)
+            writer.write(data)
+    
+    
+    class Processor:
+        def __init__(self, reader, writer):
+            self.reader = reader
+            self.writer = writer
+    
+        def process(self):
+            while True:
+                data = self.reader.readline()
+                if not data:
+                    break
+                data = self.converter(data)
+                self.writer.write(data)
+    
+        def converter(data):
+            assert False, 'converter must be defined' 
+    </pre>
+    <a href="https://code.pieces.app/collections/python">Link to the source code snippet</a>
+</body>
+</html>
